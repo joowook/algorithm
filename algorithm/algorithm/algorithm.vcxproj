@@ -73,7 +73,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -196,7 +196,9 @@
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9465.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9466.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9613.cpp" />
+    <ClCompile Include="1992.cpp" />
     <ClCompile Include="2293.cpp" />
+    <ClCompile Include="2965.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
