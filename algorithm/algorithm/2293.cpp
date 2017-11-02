@@ -1,25 +1,25 @@
-//#define _CRT_SECURE_NO_WARNINGS
 //#include <iostream>
-//#include <stdio.h>
 //using namespace std;
 //
+//int coin[101];
+//int dp[10001];
 //int main(void) {
 //    int n, k;
-//    char *body = "name=joowookzzang&time=1000.200012&value=11.111100";
-//    char name[30];
-//    double time=0;
-//    double value=0;
-//    strtok(body, "=");
-//    name = strtok(NULL, "");
+//    
+//    scanf("%d %d", &n, &k);
 //
-//    sscanf(body, "name=%s", name);
-//    sscanf(name, "&time=%lf", time);
-//    printf("%s\n", name);
-//    printf("%s\n", time);
-//    printf("%s\n", value);
+//    for (int i = 1; i <= n; i++) {
+//        scanf("%d", &coin[i]);
+//    }
 //
-//    getchar();
-//    getchar();
+//    dp[0] = 1;
+//    for (int i = 1; i <= n; i++) {
+//        for (int j = coin[i]; j <= k; j++) {
+//            dp[j] += dp[j - coin[i]];
+//        }
+//    }
+//
+//    printf("%d", dp[k]);
 //
 //    return 0;
 //}
