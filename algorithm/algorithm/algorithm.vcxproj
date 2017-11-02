@@ -198,6 +198,7 @@
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9613.cpp" />
     <ClCompile Include="1992.cpp" />
     <ClCompile Include="2293.cpp" />
+    <ClCompile Include="2302.cpp" />
     <ClCompile Include="2965.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
