@@ -196,8 +196,11 @@
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9465.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9466.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9613.cpp" />
+    <ClCompile Include="11047.cpp" />
     <ClCompile Include="11050.cpp" />
     <ClCompile Include="11051.cpp" />
+    <ClCompile Include="11399.cpp" />
+    <ClCompile Include="1931.cpp" />
     <ClCompile Include="1992.cpp" />
     <ClCompile Include="2293.cpp" />
     <ClCompile Include="2302.cpp" />
