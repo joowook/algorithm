@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\1003-dp피보나치.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -337,6 +334,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1783.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1201.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
