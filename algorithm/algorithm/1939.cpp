@@ -2,50 +2,57 @@
 //#include <vector>
 //#include <cstring>
 //using namespace std;
+//int st, ed;
 //vector<pair<int, int>> a[10001];
-//
-//int start, ed, n, m;
 //bool check[10001];
-//bool go(int node, int limit) {
-//    if (check[node]) {
+//
+//bool go(int x, int limit) {
+//    if (check[x])
 //        return false;
-//    }
-//    check[node] = true;
-//    if (node == ed) {
+//    if (x == ed) {
 //        return true;
 //    }
+//    check[x] = true; 
 //
-//    for (int i = 0; i < a[node].size(); i++) {
-//        int next = a[node][i].first;
-//        int cost = a[node][i].second;
+//    for (int i = 0; i < a[x].size(); i++) {
+//        int next = a[x][i].first;
+//        int cost = a[x][i].second;
 //
 //        if (cost >= limit) {
-//            if (go(next, limit))
+//            if (go(next, limit)) {
 //                return true;
+//            }
 //        }
 //    }
 //
 //    return false;
 //}
+//
 //int main(void) {
-//    scanf("%d %d", &n, &m);
+//    int n, m;
 //    int Max = 0;
+//
+//    scanf("%d %d", &n, &m);
+//
 //    for (int i = 0; i < m; i++) {
 //        int x, y, z;
 //        scanf("%d %d %d", &x, &y, &z);
+//
 //        a[x].push_back(make_pair(y, z));
 //        a[y].push_back(make_pair(x, z));
-//        Max = Max >= z ? Max : z;
+//        Max = Max > z ? Max : z;
 //    }
-//    scanf("%d %d", &start, &ed);
+//
+//    scanf("%d %d", &st, &ed);
 //
 //    int left = 1;
 //    int right = Max;
 //    int ans = 0;
 //    while (left <= right) {
-//        memset(check, 0, sizeof(check));
+//        memset(check, false, sizeof(check));
 //        int mid = left + (right - left) / 2;
-//        if (go(start, mid)) {
+//
+//        if (go(st, mid)) {
 //            ans = mid;
 //            left = mid + 1;
 //        }
@@ -54,6 +61,7 @@
 //        }
 //    }
 //
-//    printf("%d", ans);
+//    printf("%d\n", ans);
+//
 //    return 0;
 //}
