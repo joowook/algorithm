@@ -24,7 +24,7 @@
 ////
 ////    swap(a[x-1], a[y]);
 ////
-////    sort(a.begin() + x, a.end());
+////    reverse(a.begin() + x, a.end());
 ////
 ////    return true;
 ////}
