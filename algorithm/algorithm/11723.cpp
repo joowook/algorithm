@@ -6,7 +6,7 @@
 //    int m;
 //
 //    scanf("%d", &m);
-//    int n = 0;
+//    int S = 0;
 //    while (m--) {
 //        char ch[10];
 //        scanf("%s", ch);
@@ -15,11 +15,10 @@
 //            scanf("%d", &input);
 //
 //            if (!strcmp(ch, "add")) {
-//                n = n | (1 << input);
+//                S |= (1 << input);
 //            }
 //            else if (!strcmp(ch, "check")) {
-//                int res = n&(1 << input);
-//                if (res) {
+//                if((S&(1 << input))>0) {
 //                    printf("1\n");
 //                }
 //                else {
@@ -27,22 +26,19 @@
 //                }
 //            }
 //            else if (!strcmp(ch, "remove")) {
-//                n = n & ~(1 << input);
+//                S &= ~(1 << input);
 //            }
 //            else if (!strcmp(ch, "toggle")) {
-//                n = n ^ (1 << input);
+//                S ^= (1 << input);
 //            }
 //        }
 //        else {
 //            if (!strcmp(ch, "all")) {
-//                for (int i = 1; i <= 20; i++) {
-//                    n = n | (1 << i);
-//                }
+//                S |= ((1 << 21) - 1);
 //            }
 //            else if (!strcmp(ch, "empty")) {
-//                for (int i = 1; i <= 20; i++) {
-//                    n = n & ~(1 << i);
-//                }
+//                //S = 0;
+//                S &= 0;
 //            }
 //        }
 //    }
