@@ -261,8 +261,10 @@
     <ClCompile Include="2902.cpp" />
     <ClCompile Include="2960.cpp" />
     <ClCompile Include="2965.cpp" />
+    <ClCompile Include="3015.cpp" />
     <ClCompile Include="3111.cpp" />
     <ClCompile Include="4948.cpp" />
+    <ClCompile Include="6549.cpp" />
     <ClCompile Include="6603.cpp" />
     <ClCompile Include="7568.cpp" />
     <ClCompile Include="9019.cpp" />
