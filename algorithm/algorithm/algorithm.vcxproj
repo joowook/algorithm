@@ -83,8 +83,11 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
     </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -230,6 +233,7 @@
     <ClCompile Include="1561.cpp" />
     <ClCompile Include="1654.cpp" />
     <ClCompile Include="1697.cpp" />
+    <ClCompile Include="1717.cpp" />
     <ClCompile Include="1722.cpp" />
     <ClCompile Include="1735.cpp" />
     <ClCompile Include="1744.cpp" />
@@ -272,6 +276,7 @@
     <ClCompile Include="9471.cpp" />
     <ClCompile Include="9663.cpp" />
     <ClCompile Include="9935.cpp" />
+    <ClCompile Include="algospat-BOARDCOVER.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
