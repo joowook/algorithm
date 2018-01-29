@@ -283,6 +283,8 @@
     <ClCompile Include="9935.cpp" />
     <ClCompile Include="algospat-BOARDCOVER.cpp" />
     <ClCompile Include="codeground-괄호.cpp" />
+    <ClCompile Include="codeground-주식거래.cpp" />
+    <ClCompile Include="ex.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
