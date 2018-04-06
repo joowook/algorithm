@@ -224,6 +224,7 @@
     <ClCompile Include="11723.cpp" />
     <ClCompile Include="11728.cpp" />
     <ClCompile Include="11729.cpp" />
+    <ClCompile Include="1181.cpp" />
     <ClCompile Include="1182.cpp" />
     <ClCompile Include="1201.cpp" />
     <ClCompile Include="12767.cpp" />
@@ -236,6 +237,7 @@
     <ClCompile Include="1525.cpp" />
     <ClCompile Include="15312.cpp" />
     <ClCompile Include="1541.cpp" />
+    <ClCompile Include="15552.cpp" />
     <ClCompile Include="1561.cpp" />
     <ClCompile Include="1654.cpp" />
     <ClCompile Include="1697.cpp" />
@@ -301,6 +303,7 @@
     <ClCompile Include="SW Expert Academy-2733.cpp" />
     <ClCompile Include="SW Expert Academy-3503.cpp" />
     <ClCompile Include="SW Expert Academy-3752.cpp" />
+    <ClCompile Include="SW Expert Academy-4014.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

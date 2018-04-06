@@ -573,5 +573,14 @@
     <ClCompile Include="1333.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SW Expert Academy-4014.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15552.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1181.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
