@@ -300,6 +300,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="SW Expert Academy-2117.cpp" />
     <ClCompile Include="SW Expert Academy-2733.cpp" />
     <ClCompile Include="SW Expert Academy-3503.cpp" />
     <ClCompile Include="SW Expert Academy-3752.cpp" />

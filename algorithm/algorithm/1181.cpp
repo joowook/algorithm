@@ -5,25 +5,21 @@
 //using namespace std;
 //
 //bool cmp(const string &a,const string &b) {
-//	if (a.size() < b.size()) {
-//		return true;
-//	}
-//	else if (a.size() == b.size()) {
-//		int i;
-//		for (i = 0; i < a.size(); i++) {
+//	if (a.size() == b.size()) {
+//		for (int i = 0; i < a.size(); i++) {
 //			if (a[i] == b[i]) {
 //				continue;
 //			}
+//			else if (a[i] < b[i]) {
+//				return true;
+//			}
 //			else {
-//				return a[i] < b[i];
+//				return false;
 //			}
 //		}
 //	}
-//	else {
-//		return false;
-//	}
 //
-//	return false;
+//	return a.size() < b.size();
 //}
 //int main(void) {
 //	int N;
