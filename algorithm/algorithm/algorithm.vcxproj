@@ -229,6 +229,7 @@
     <ClCompile Include="1201.cpp" />
     <ClCompile Include="12767.cpp" />
     <ClCompile Include="1333.cpp" />
+    <ClCompile Include="13458.cpp" />
     <ClCompile Include="14502.cpp" />
     <ClCompile Include="14503.cpp" />
     <ClCompile Include="1476.cpp" />
@@ -283,6 +284,7 @@
     <ClCompile Include="3111.cpp" />
     <ClCompile Include="4948.cpp" />
     <ClCompile Include="5425.cpp" />
+    <ClCompile Include="6064.cpp" />
     <ClCompile Include="6549.cpp" />
     <ClCompile Include="6603.cpp" />
     <ClCompile Include="7568.cpp" />
@@ -300,10 +302,15 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="SW Expert Academy - 2105.cpp" />
+    <ClCompile Include="SW Expert Academy - 2115.cpp" />
+    <ClCompile Include="SW Expert Academy - 4008.cpp" />
     <ClCompile Include="SW Expert Academy-2117.cpp" />
     <ClCompile Include="SW Expert Academy-2733.cpp" />
     <ClCompile Include="SW Expert Academy-3503.cpp" />
     <ClCompile Include="SW Expert Academy-3752.cpp" />
+    <ClCompile Include="SW Expert Academy-4012.cpp" />
+    <ClCompile Include="SW Expert Academy-4013.cpp" />
     <ClCompile Include="SW Expert Academy-4014.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
