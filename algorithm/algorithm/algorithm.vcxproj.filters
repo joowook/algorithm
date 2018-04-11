@@ -606,5 +606,14 @@
     <ClCompile Include="SW Expert Academy - 2105.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14863.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SW Expert Academy - 2112.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SW Expert Academy - 1952.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

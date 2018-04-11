@@ -233,6 +233,7 @@
     <ClCompile Include="14502.cpp" />
     <ClCompile Include="14503.cpp" />
     <ClCompile Include="1476.cpp" />
+    <ClCompile Include="14863.cpp" />
     <ClCompile Include="14918.cpp" />
     <ClCompile Include="1517.cpp" />
     <ClCompile Include="1525.cpp" />
@@ -302,7 +303,9 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="merge_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
+    <ClCompile Include="SW Expert Academy - 1952.cpp" />
     <ClCompile Include="SW Expert Academy - 2105.cpp" />
+    <ClCompile Include="SW Expert Academy - 2112.cpp" />
     <ClCompile Include="SW Expert Academy - 2115.cpp" />
     <ClCompile Include="SW Expert Academy - 4008.cpp" />
     <ClCompile Include="SW Expert Academy-2117.cpp" />

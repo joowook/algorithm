@@ -185,6 +185,7 @@
 //}
 //
 ////#include <iostream>
+////#include <vector>
 ////using namespace std;
 ////int a[20][20];
 ////int dx[4] = { 1, 1, -1, -1 };
@@ -192,14 +193,9 @@
 ////int st_x, st_y;
 ////int ans, N;
 ////
-////void go4(int x, int y, int lc, int rc, int cnt, bool flag2[]) {
+////void go4(int x, int y, int lc, int rc, int cnt, vector< bool> flag) {
 ////	int tmp = 0;
 ////	int nx = x, ny = y;
-////
-////	bool flag[101] = { 0 };
-////	for (int i = 0; i < 101; i++) {
-////		flag[i] = flag2[i];
-////	}
 ////
 ////	for (int i = 0; i < rc; i++) {
 ////		nx += dx[3];
@@ -218,14 +214,9 @@
 ////	}
 ////}
 ////
-////void go3(int x, int y, int lc, int rc, int cnt, bool flag2[]) {
+////void go3(int x, int y, int lc, int rc, int cnt, vector< bool> flag) {
 ////	int nx = x, ny = y;
 ////	int tmp = 0;
-////
-////	bool flag[101] = { 0 };
-////	for (int i = 0; i < 101; i++) {
-////		flag[i] = flag2[i];
-////	}
 ////
 ////	for (int i = 0; i < lc; i++) {
 ////		nx += dx[2];
@@ -244,14 +235,10 @@
 ////	}
 ////}
 ////
-////void go2(int x, int y, int lc, int rc, int cnt, bool flag2[]) {
+////void go2(int x, int y, int lc, int rc, int cnt, vector< bool> flag) {
 ////	int nx = x;
 ////	int ny = y;
 ////	int tmp = 0;
-////	bool flag[101] = { 0 };
-////	for (int i = 0; i < 101; i++) {
-////		flag[i] = flag2[i];
-////	}
 ////
 ////	while (1) {
 ////		nx += dx[1];
@@ -273,14 +260,11 @@
 ////	}
 ////}
 ////
-////void go1(int x, int y, int lc, int rc, int cnt, bool flag2[]) {
+////void go1(int x, int y, int lc, int rc, int cnt, vector< bool> flag) {
 ////	int nx = x;
 ////	int ny = y;
 ////	int tmp = 0;
-////	bool flag[101] = { 0 };
-////	for (int i = 0; i < 101; i++) {
-////		flag[i] = flag2[i];
-////	}
+////
 ////	while (1) {
 ////		nx += dx[0];
 ////		ny += dy[0];
@@ -306,7 +290,7 @@
 ////	scanf("%d", &T);
 ////
 ////	for (int test_case = 1; test_case <= T; test_case++) {
-////		bool flag[101] = { 0 };
+////		vector< bool> flag(101, false);
 ////		scanf("%d", &N);
 ////
 ////		ans = -1;
