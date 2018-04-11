@@ -81,18 +81,13 @@
 ////using namespace std;
 ////
 ////#define MAX 2000000000
-////int month[13];
+////int month[20];
 ////int price[4];
 ////int ans;
 ////
-////void go(int now, int money, int cnt) {
-////	if (now != 12 && cnt != 0) {
-////		go(now + 1, money, cnt - 1);
-////		return;
-////	}
-////
-////	if (now == 12) {
-////		if (cnt != 0 || month[now] == 0) {
+////void go(int now, int money) {
+////	if (now >= 12) {
+////		if (month[now] == 0) {
 ////			if (ans > money) {
 ////				ans = money;
 ////				return;
@@ -117,12 +112,12 @@
 ////	}
 ////
 ////	if (month[now] == 0) {
-////		go(now + 1, money, 0);
+////		go(now + 1, money);
 ////	}
 ////	else {
-////		go(now + 1, money + month[now] * price[0], 0); // 1일
-////		go(now + 1, money + price[1], 0); // 1달
-////		go(now + 1, money + price[2], 2); //3달
+////		go(now + 1, money + month[now] * price[0]); // 1일
+////		go(now + 1, money + price[1]); // 1달
+////		go(now + 3, money + price[2]); //3달
 ////	}
 ////
 ////}
@@ -143,7 +138,7 @@
 ////		
 ////		ans = price[3];
 ////
-////		go(1, 0, 0);
+////		go(1, 0);
 ////		
 ////		printf("#%d %d\n", test_case, ans);
 ////	}
