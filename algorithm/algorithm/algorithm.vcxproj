@@ -308,7 +308,10 @@
     <ClCompile Include="SW Expert Academy - 2105.cpp" />
     <ClCompile Include="SW Expert Academy - 2112.cpp" />
     <ClCompile Include="SW Expert Academy - 2115.cpp" />
+    <ClCompile Include="SW Expert Academy - 2382.cpp" />
+    <ClCompile Include="SW Expert Academy - 2383.cpp" />
     <ClCompile Include="SW Expert Academy - 4008.cpp" />
+    <ClCompile Include="SW Expert Academy -1949.cpp" />
     <ClCompile Include="SW Expert Academy-2117.cpp" />
     <ClCompile Include="SW Expert Academy-2733.cpp" />
     <ClCompile Include="SW Expert Academy-3503.cpp" />
