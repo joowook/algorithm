@@ -227,6 +227,7 @@
     <ClCompile Include="1181.cpp" />
     <ClCompile Include="1182.cpp" />
     <ClCompile Include="1201.cpp" />
+    <ClCompile Include="12100.cpp" />
     <ClCompile Include="12767.cpp" />
     <ClCompile Include="1333.cpp" />
     <ClCompile Include="13458.cpp" />
@@ -283,6 +284,7 @@
     <ClCompile Include="3015.cpp" />
     <ClCompile Include="3055.cpp" />
     <ClCompile Include="3111.cpp" />
+    <ClCompile Include="3190.cpp" />
     <ClCompile Include="4948.cpp" />
     <ClCompile Include="5425.cpp" />
     <ClCompile Include="6064.cpp" />
@@ -310,6 +312,7 @@
     <ClCompile Include="SW Expert Academy - 2115.cpp" />
     <ClCompile Include="SW Expert Academy - 2382.cpp" />
     <ClCompile Include="SW Expert Academy - 2383.cpp" />
+    <ClCompile Include="SW Expert Academy - 2477.cpp" />
     <ClCompile Include="SW Expert Academy - 4008.cpp" />
     <ClCompile Include="SW Expert Academy -1949.cpp" />
     <ClCompile Include="SW Expert Academy-2117.cpp" />
