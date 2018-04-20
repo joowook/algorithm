@@ -648,5 +648,14 @@
     <ClCompile Include="2455.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2941.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1000.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\새 폴더\1681.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

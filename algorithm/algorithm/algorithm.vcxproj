@@ -116,6 +116,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\새 폴더\1681.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\1003-dp피보나치.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\10430.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\10451.cpp" />
@@ -202,6 +203,7 @@
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9465.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9466.cpp" />
     <ClCompile Include="..\..\..\..\..\Documents\Visual Studio 2015\Projects\algorithm-2017-2\algorithm-2017-2\9613.cpp" />
+    <ClCompile Include="1000.cpp" />
     <ClCompile Include="1012.cpp" />
     <ClCompile Include="10610.cpp" />
     <ClCompile Include="1068.cpp" />
@@ -283,6 +285,7 @@
     <ClCompile Include="2873.cpp" />
     <ClCompile Include="2875.cpp" />
     <ClCompile Include="2902.cpp" />
+    <ClCompile Include="2941.cpp" />
     <ClCompile Include="2960.cpp" />
     <ClCompile Include="2965.cpp" />
     <ClCompile Include="3015.cpp" />
