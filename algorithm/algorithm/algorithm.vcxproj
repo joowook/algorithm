@@ -330,6 +330,7 @@
     <ClCompile Include="SW Expert Academy-4012.cpp" />
     <ClCompile Include="SW Expert Academy-4013.cpp" />
     <ClCompile Include="SW Expert Academy-4014.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="user.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
