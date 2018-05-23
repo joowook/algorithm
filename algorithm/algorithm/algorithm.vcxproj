@@ -244,7 +244,9 @@
     <ClCompile Include="15552.cpp" />
     <ClCompile Include="1561.cpp" />
     <ClCompile Include="15683.cpp" />
+    <ClCompile Include="15684.cpp" />
     <ClCompile Include="15685.cpp" />
+    <ClCompile Include="15686.cpp" />
     <ClCompile Include="1654.cpp" />
     <ClCompile Include="1697.cpp" />
     <ClCompile Include="1717.cpp" />
@@ -260,6 +262,7 @@
     <ClCompile Include="1931.cpp" />
     <ClCompile Include="1939.cpp" />
     <ClCompile Include="1963.cpp" />
+    <ClCompile Include="1966.cpp" />
     <ClCompile Include="1977.cpp" />
     <ClCompile Include="1987.cpp" />
     <ClCompile Include="1992.cpp" />
@@ -306,6 +309,9 @@
     <ClCompile Include="9935.cpp" />
     <ClCompile Include="algospat- 록 페스티벌.cpp" />
     <ClCompile Include="algospat-BOARDCOVER.cpp" />
+    <ClCompile Include="algospot - BOGGLE.cpp" />
+    <ClCompile Include="algospot - PICNIC.cpp" />
+    <ClCompile Include="algospot - TSP1.cpp" />
     <ClCompile Include="codeground-괄호.cpp" />
     <ClCompile Include="codeground-주식거래.cpp" />
     <ClCompile Include="ex.cpp" />
@@ -321,6 +327,7 @@
     <ClCompile Include="SW Expert Academy - 2383.cpp" />
     <ClCompile Include="SW Expert Academy - 2477.cpp" />
     <ClCompile Include="SW Expert Academy - 4008.cpp" />
+    <ClCompile Include="SW Expert Academy - 4261.cpp" />
     <ClCompile Include="SW Expert Academy - 4299.cpp" />
     <ClCompile Include="SW Expert Academy -1949.cpp" />
     <ClCompile Include="SW Expert Academy-2117.cpp" />
