@@ -684,5 +684,8 @@
     <ClCompile Include="15684.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="codeground - 정수정렬하기(10000).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

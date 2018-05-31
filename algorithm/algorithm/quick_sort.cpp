@@ -4,7 +4,7 @@
 //void swap(int a[], int left, int right) {
 //	int tmp = a[left];
 //	a[left] = a[right];
-//	a[right] = a[left];
+//	a[right] = tmp;
 //}
 //int partition(int a[], int left, int right) {
 //	int pivot = a[left];
