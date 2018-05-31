@@ -18,5 +18,14 @@
     <ClCompile Include="회로판 위의 배터리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="정수 정렬하기(10000).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="주식거래.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

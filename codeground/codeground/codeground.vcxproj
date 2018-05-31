@@ -142,6 +142,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="괄호.cpp" />
+    <ClCompile Include="정수 정렬하기(10000).cpp" />
+    <ClCompile Include="주식거래.cpp" />
     <ClCompile Include="회로판 위의 배터리.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
