@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="CLOCKSYNC.cpp" />
     <ClCompile Include="ex.cpp" />
+    <ClCompile Include="FENCE.cpp" />
     <ClCompile Include="QUADTREE.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
