@@ -1,64 +1,71 @@
 //#include <iostream>
-//#include <stack>
 //#include <string>
+//#include <stack>
 //#include <algorithm>
-//
 //using namespace std;
 //
-//int ans;
-//string a;
+//int Answer;
 //
-//bool IsMatch(char x, char y)
-//{
-//	if (x == '(' && y == ')') return true;
-//	if (x == '{' && y == '}') return true;
-//	if (x == '[' && y == ']') return true;
-//	return false;
+//bool check(char x, char y) {
+//    if (x == '(') return y == ')';
+//    if (x == '[') return y == ']';
+//    if (x == '{') return y == '}';
+//
+//    return false;
 //}
 //
 //int main(int argc, char** argv)
 //{
-//	int T, test_case;
+//    int T, test_case;
 //
-//	cin >> T;
-//	for (test_case = 0; test_case < T; test_case++)
-//	{
-//		cin >> a;
+//    cin >> T;
+//    for (test_case = 0; test_case < T; test_case++)
+//    {
+//        Answer = 0;
 //
-//		stack<int> s;
-//		int ans = 0;
-//		int n = a.size();
-//		int sc = -1;
+//        string s;
 //
-//		for (int i = 0; i < n; i++) {
-//			if (a[i] == '(' || a[i] == '{' || a[i] == '[') {
-//				s.push(i);
+//        cin >> s;
 //
-//				if (sc == -1) {
-//					sc = i;
-//				}
-//			}
-//			else {
-//				if (!s.empty() && IsMatch(a[s.top()], a[i])) {
-//					
-//					s.pop();
-//				
-//					if (s.empty()) {
-//						ans = max(ans, i - sc + 1);
-//					}
-//					else {
-//						ans = max(ans, i - s.top());
-//					}
-//				}
-//				else {
-//					s = stack<int>();
-//					sc = -1;
-//				}
-//			}
-//		}
-//		cout << "Case #" << test_case + 1 << endl;
-//		cout << ans << endl;
-//	}
+//        int n = s.size();
 //
-//	return 0;
+//        stack<int> st;
+//        int sc = -1;
+//
+//        for (int i = 0; i < n; i++) {
+//            if (s[i] == '(' || s[i] == '[' || s[i] == '{') {
+//                st.push(i);
+//                if (sc == -1) {
+//                    sc = i;
+//                }
+//            }
+//            else {
+//                if (!st.empty()) {
+//                    if (check(s[st.top()], s[i])) {
+//                        st.pop();
+//
+//                        if (st.empty()) {
+//                            Answer = max(Answer, i - sc + 1); //  ()(()()() <- 이거 해결하는데 오래 걸림
+//                        }
+//                        else {
+//                            Answer = max(Answer, i - st.top());
+//                        }
+//                    }
+//                    else {
+//                        st = stack<int>(); // 스택 초기화
+//                        sc = -1;
+//                    }
+//                }
+//                else {
+//                    sc = -1;
+//                }
+//
+//            }
+//        }
+//
+//        cout << "Case #" << test_case + 1 << endl;
+//        cout << Answer << endl;
+//    }
+//
+//    return 0;
 //}

@@ -5,23 +5,40 @@
 //using namespace std;
 //
 //int main(void) {
+//    ios_base::sync_with_stdio(false); 
+//    cin.tie(NULL);
 //    int T;
 //
-//    scanf("%d", &T);
+//    cin >> T;
 //
 //    while (T--) {
 //        string s;
 //        cin >> s;
 //
-//        int n;
+//        int n=s.size();
+//       /* string tmp = "";
+//        s = tmp;
+//        for (int i = 0; i < n; i++) {
+//            if (i == n - 1) {
+//                tmp += s[i];
+//                break;
+//            }
 //
-//        scanf("%d", &n);
+//            if (s[i] == 'R' && s[i + 1] == 'R') {
+//                i++;
+//            }
+//            else {
+//                tmp += s[i];
+//            }
+//
+//        }*/
+//
+//        cin >> n;
 //        deque<int>a;
 //
 //        string cmd;
 //
 //        cin >> cmd;
-//
 //
 //        string x = "";
 //        for (int i = 1; cmd[i] != ']'; i++) {
@@ -49,7 +66,7 @@
 //            }
 //            else if (s[i] == 'D') {
 //                if (a.empty()) {
-//                    printf("error\n");
+//                    cout << "error" << '\n';
 //                    check = false;
 //                    break;
 //                }
@@ -65,27 +82,27 @@
 //        if (check) {
 //            int an = a.size();
 //            if (flag) {
-//                printf("[");
+//                cout << "[";
 //                for (int i = 0; i < an; i++) {
-//                    printf("%d", a.front());
+//                    cout << a.front();
 //                    if (i != an - 1) {
-//                        printf(",");
+//                        cout << ",";
 //                    }
 //                    a.pop_front();
 //                }
-//                printf("]\n");
+//                cout << "]" << '\n';
 //            }
 //            else {
-//                printf("[");
+//                cout << "[";
 //                for (int i = 0; i < an; i++) {
-//                    printf("%d", a.back());
+//                    cout << a.back();
 //                    if (i != an - 1) {
-//                        printf(",");
+//                        cout << ",";
 //                    }
 //
 //                    a.pop_back();
 //                }
-//                printf("]\n");
+//                cout << "]" << '\n';
 //            }
 //        }
 //
