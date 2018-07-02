@@ -15,22 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2504.cpp">
+    <ClCompile Include="극한의 청소 작업.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="5430.cpp">
+    <ClCompile Include="4613. 러시아 국기 같은 깃발.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1914.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ex.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="11729.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="2270.cpp">
+    <ClCompile Include="1223. [SW 문제해결 기본] 6일차 - 계산기2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

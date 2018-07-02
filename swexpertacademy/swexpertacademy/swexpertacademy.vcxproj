@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{43DCD2FC-A459-4ABF-9450-8DF8EC1D778A}</ProjectGuid>
+    <ProjectGuid>{61F21E00-754E-42A9-9913-CA72FF0197F5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>baekjoon</RootNamespace>
+    <RootNamespace>swexpertacademy</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,12 +142,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="11729.cpp" />
-    <ClCompile Include="1914.cpp" />
-    <ClCompile Include="2270.cpp" />
-    <ClCompile Include="2504.cpp" />
-    <ClCompile Include="5430.cpp" />
-    <ClCompile Include="ex.cpp" />
+    <ClCompile Include="1223. [SW 문제해결 기본] 6일차 - 계산기2.cpp" />
+    <ClCompile Include="4613. 러시아 국기 같은 깃발.cpp" />
+    <ClCompile Include="극한의 청소 작업.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
