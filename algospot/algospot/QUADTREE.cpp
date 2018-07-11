@@ -3,9 +3,10 @@
 //using namespace std;
 //int index;
 //
-//string go(string &s) {
+//string go(string &s) { // string s 로 하면 시간 더 오래걸림
 //    if (s[index] != 'x') {
 //        return string(1, s[index++]);
+//        //return string()+s[index];
 //    }
 //    index++;
 //    string s1 = go(s);
