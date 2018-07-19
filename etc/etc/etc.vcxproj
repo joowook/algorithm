@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{15C175EE-702D-4585-90C4-DB54A6D9F3D1}</ProjectGuid>
+    <ProjectGuid>{0558B21B-87D3-4FA5-8ED5-B6EF5AC70F07}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>algospot</RootNamespace>
+    <RootNamespace>etc</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,20 +142,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CLOCKSYNC.cpp" />
-    <ClCompile Include="ex.cpp" />
-    <ClCompile Include="FANMEETING.cpp" />
-    <ClCompile Include="FENCE.cpp" />
-    <ClCompile Include="JLIS.cpp" />
-    <ClCompile Include="JUMPGAME.cpp" />
-    <ClCompile Include="LIS.cpp" />
-    <ClCompile Include="PI.cpp" />
-    <ClCompile Include="QUADTREE.cpp" />
-    <ClCompile Include="QUANTIZE.cpp" />
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="TILING2.cpp" />
-    <ClCompile Include="TRIANGLEPATH.cpp" />
-    <ClCompile Include="WILDCARD.cpp" />
+    <ClCompile Include="KOITP-고장난시계.cpp" />
+    <ClCompile Include="KOITP-보물찾기.cpp" />
+    <ClCompile Include="KOITP-큰수만들기.cpp" />
+    <ClCompile Include="오래된 계산기.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
