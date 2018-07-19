@@ -155,6 +155,7 @@
     <ClCompile Include="test.cpp" />
     <ClCompile Include="TILING2.cpp" />
     <ClCompile Include="TRIANGLEPATH.cpp" />
+    <ClCompile Include="TRIPATHCNT.cpp" />
     <ClCompile Include="WILDCARD.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
