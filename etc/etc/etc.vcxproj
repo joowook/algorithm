@@ -146,6 +146,7 @@
     <ClCompile Include="KOITP-고장난시계.cpp" />
     <ClCompile Include="KOITP-보물찾기.cpp" />
     <ClCompile Include="KOITP-큰수만들기.cpp" />
+    <ClCompile Include="priority_queue.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="tree.cpp" />
     <ClCompile Include="오래된 계산기.cpp" />
