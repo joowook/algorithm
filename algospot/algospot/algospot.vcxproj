@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ASYMTILING.cpp" />
     <ClCompile Include="CLOCKSYNC.cpp" />
     <ClCompile Include="ex.cpp" />
     <ClCompile Include="FANMEETING.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="PI.cpp" />
     <ClCompile Include="QUADTREE.cpp" />
     <ClCompile Include="QUANTIZE.cpp" />
+    <ClCompile Include="SNAIL.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="TILING2.cpp" />
     <ClCompile Include="TRIANGLEPATH.cpp" />
