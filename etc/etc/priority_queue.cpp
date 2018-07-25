@@ -1,13 +1,13 @@
 //#include <iostream>
 //using namespace std;
 //
-//int heap[100001];
+//int heap[10001];
 //int hn;
 //
 //void swap(int x, int y) {
-//    int tmp = heap[x];
+//    int t = heap[x];
 //    heap[x] = heap[y];
-//    heap[y] = tmp;
+//    heap[y] = t;
 //}
 //
 //int pop() {
@@ -15,7 +15,7 @@
 //    heap[1] = heap[hn];
 //    heap[hn--] = 0;
 //
-//    for (int i = 1; i * 2 <= hn;) {
+//    for (int i = 1; i * 2 < hn;) {
 //        if (heap[i] > heap[i * 2] && heap[i] > heap[i * 2 + 1]) {
 //            break;
 //        }
@@ -36,8 +36,8 @@
 //    heap[++hn] = x;
 //
 //    for (int i = hn; i > 1; i /= 2) {
-//        if (heap[hn] > heap[hn / 2]) {
-//            swap(hn, hn / 2);
+//        if (heap[i] > heap[i / 2]) {
+//            swap(i, i / 2);
 //        }
 //        else {
 //            break;
@@ -46,5 +46,18 @@
 //}
 //
 //int main(void) {
-//    
+//    push(4);
+//    push(10);
+//    push(9);
+//    push(8);
+//    push(1);
+//    push(2);
+//
+//    int t = hn;
+//
+//    for (int i = 0; i < t; i++) {
+//        printf("%d\n", pop());
+//    }
+//
+//    return 0;
 //}

@@ -151,6 +151,7 @@
     <ClCompile Include="JUMPGAME.cpp" />
     <ClCompile Include="LIS.cpp" />
     <ClCompile Include="PI.cpp" />
+    <ClCompile Include="POLY.cpp" />
     <ClCompile Include="QUADTREE.cpp" />
     <ClCompile Include="QUANTIZE.cpp" />
     <ClCompile Include="SNAIL.cpp" />
