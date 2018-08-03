@@ -144,14 +144,20 @@
   <ItemGroup>
     <ClCompile Include="1021.cpp" />
     <ClCompile Include="1038.cpp" />
+    <ClCompile Include="11266.cpp" />
+    <ClCompile Include="11438.cpp" />
     <ClCompile Include="11729.cpp" />
     <ClCompile Include="11866.cpp" />
     <ClCompile Include="14501.cpp" />
     <ClCompile Include="15649.cpp" />
     <ClCompile Include="15780.cpp" />
+    <ClCompile Include="1717.cpp" />
     <ClCompile Include="1914.cpp" />
+    <ClCompile Include="1922.cpp" />
     <ClCompile Include="1966.cpp" />
+    <ClCompile Include="2003.cpp" />
     <ClCompile Include="2042.cpp" />
+    <ClCompile Include="2252.cpp" />
     <ClCompile Include="2270.cpp" />
     <ClCompile Include="2504.cpp" />
     <ClCompile Include="2740.cpp" />
