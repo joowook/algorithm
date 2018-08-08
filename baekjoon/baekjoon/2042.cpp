@@ -1,72 +1,72 @@
 //#include <iostream>
 //using namespace std;
 //#define MAX 1000000
-//
 //long long tree[MAX * 4 + 1];
-//int s = 1;
+//
+//int Max = 1;
 //
 //long long init(int x) {
-//    if (x > s) {
+//    if (x > Max) {
 //        return tree[x];
 //    }
-//    else {
-//        return tree[x] = init(x * 2) + init(x * 2 + 1);
-//    }
+//
+//    return tree[x] = init(x * 2) + init(x * 2 + 1);
 //}
 //
-//void update(int b, long long change) {
-//    for (int i = b; i >= 1; i /= 2) {
-//        tree[i] += change;
-//    }
-//}
-//
-//long long sum(int start, int end) {
+//long long print(int from, int to) {
 //    long long ret = 0;
 //
-//    while (start <= end) {
-//        if (start % 2 == 1) {
-//            ret += tree[start];
+//    while (from <= to) {
+//        if (from % 2 == 1) {
+//            ret += tree[from];
 //        }
 //
-//        if (end % 2 == 0) {
-//            ret += tree[end];
+//        if (to % 2 == 0) {
+//            ret += tree[to];
 //        }
 //
-//        start = (start + 1) / 2;
-//        end = (end - 1) / 2;
+//        from = (from + 1) / 2;
+//        to = (to - 1) / 2;
 //    }
 //
 //    return ret;
 //}
+//
+//void update(int from, long long to) {
+//    for (int i = from; i >= 1; i /= 2) {
+//        tree[i] += to;
+//    }
+//}
+//
 //int main(void) {
 //    int N, M, K;
 //
 //    scanf("%d %d %d", &N, &M, &K);
 //
-//
-//    while (N > s) {
-//        s = s << 1;
+//    while (N > Max) {
+//        Max <<=1;
 //    }
 //
-//    s--;
+//    Max--;
 //
 //    for (int i = 1; i <= N; i++) {
-//        scanf("%lld", &tree[s + i]);
+//        scanf("%lld", &tree[Max + i]);
 //    }
 //
 //    init(1);
 //
 //    for (int i = 0; i < M + K; i++) {
-//        int flag, b, c;
+//        int flag, from, to;
 //
-//        scanf("%d %d %d", &flag, &b, &c);
+//        scanf("%d %d %d", &flag, &from, &to);
 //
 //        if (flag == 1) {
-//            update(s + b, (long long)c - tree[s+b]);
+//            update(Max + from, (long long)to - tree[Max + from]);
 //        }
 //        else {
-//            printf("%lld\n", sum(s + b, s + c));
+//            printf("%lld\n", print(Max + from, Max + to));
 //        }
 //    }
+//
 //    return 0;
 //}

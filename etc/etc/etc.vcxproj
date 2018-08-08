@@ -151,6 +151,11 @@
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="segment_tree.cpp" />
     <ClCompile Include="tree.cpp" />
+    <ClCompile Include="카카오A.cpp" />
+    <ClCompile Include="카카오B.cpp" />
+    <ClCompile Include="카카오C.cpp" />
+    <ClCompile Include="카카오D.cpp" />
+    <ClCompile Include="카카오E.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
