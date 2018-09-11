@@ -146,6 +146,7 @@
     <ClCompile Include="1768. [SW Test 샘플문제] 숫자야구게임.cpp" />
     <ClCompile Include="4613. 러시아 국기 같은 깃발.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="가능한 시험 점수.cpp" />
     <ClCompile Include="극한의 청소 작업.cpp" />
   </ItemGroup>
   <ItemGroup>

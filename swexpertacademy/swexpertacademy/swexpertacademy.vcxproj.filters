@@ -30,6 +30,9 @@
     <ClCompile Include="1768. [SW Test 샘플문제] 숫자야구게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="가능한 시험 점수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample_input.txt">
