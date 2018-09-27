@@ -2,9 +2,7 @@
 //using namespace std;
 //
 //int main(void) {
-//    int N;
-//    scanf("%d", &N);
-//
+//    printf("Hello World!");
 //
 //    return 0;
 //}

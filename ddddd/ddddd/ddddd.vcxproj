@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0558B21B-87D3-4FA5-8ED5-B6EF5AC70F07}</ProjectGuid>
+    <ProjectGuid>{C68B6776-36D1-46FC-8FC8-9BA6974E4CC4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>etc</RootNamespace>
+    <RootNamespace>ddddd</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,23 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex.cpp" />
-    <ClCompile Include="KOITP-고장난시계.cpp" />
-    <ClCompile Include="KOITP-보물찾기.cpp" />
-    <ClCompile Include="KOITP-오래된 계산기.cpp" />
-    <ClCompile Include="KOITP-큰수만들기.cpp" />
-    <ClCompile Include="priority_queue.cpp" />
-    <ClCompile Include="quick_sort.cpp" />
-    <ClCompile Include="segment_tree.cpp" />
-    <ClCompile Include="tree.cpp" />
-    <ClCompile Include="카카오-비밀지도.cpp" />
-    <ClCompile Include="카카오-실패율.cpp" />
-    <ClCompile Include="카카오-오픈채팅방.cpp" />
-    <ClCompile Include="카카오A.cpp" />
-    <ClCompile Include="카카오B.cpp" />
-    <ClCompile Include="카카오C.cpp" />
-    <ClCompile Include="카카오D.cpp" />
-    <ClCompile Include="카카오E.cpp" />
+    <ClCompile Include="a.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
