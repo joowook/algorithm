@@ -144,10 +144,14 @@
   <ItemGroup>
     <ClCompile Include="1000.cpp" />
     <ClCompile Include="1012.cpp" />
+    <ClCompile Include="1016.cpp" />
     <ClCompile Include="1021.cpp" />
     <ClCompile Include="1038.cpp" />
     <ClCompile Include="1065.cpp" />
+    <ClCompile Include="10799.cpp" />
+    <ClCompile Include="10809.cpp" />
     <ClCompile Include="10845.cpp" />
+    <ClCompile Include="1094.cpp" />
     <ClCompile Include="10950.cpp" />
     <ClCompile Include="10951.cpp" />
     <ClCompile Include="10952.cpp" />
@@ -169,10 +173,12 @@
     <ClCompile Include="13241.cpp" />
     <ClCompile Include="14003.cpp" />
     <ClCompile Include="14501.cpp" />
+    <ClCompile Include="14954.cpp" />
     <ClCompile Include="15649.cpp" />
     <ClCompile Include="15780.cpp" />
     <ClCompile Include="15899.cpp" />
     <ClCompile Include="15979.cpp" />
+    <ClCompile Include="16170.cpp" />
     <ClCompile Include="1644.cpp" />
     <ClCompile Include="1647.cpp" />
     <ClCompile Include="1717.cpp" />
@@ -188,6 +194,7 @@
     <ClCompile Include="2178.cpp" />
     <ClCompile Include="2252.cpp" />
     <ClCompile Include="2270.cpp" />
+    <ClCompile Include="2309.cpp" />
     <ClCompile Include="2504.cpp" />
     <ClCompile Include="2557.cpp" />
     <ClCompile Include="2558.cpp" />
@@ -195,13 +202,16 @@
     <ClCompile Include="2748.cpp" />
     <ClCompile Include="2775.cpp" />
     <ClCompile Include="2824.cpp" />
+    <ClCompile Include="2869.cpp" />
     <ClCompile Include="2960.cpp" />
     <ClCompile Include="3020.cpp" />
+    <ClCompile Include="3036.cpp" />
     <ClCompile Include="3053.cpp" />
     <ClCompile Include="3176.cpp" />
     <ClCompile Include="3933.cpp" />
     <ClCompile Include="5430.cpp" />
     <ClCompile Include="9012.cpp" />
+    <ClCompile Include="9095.cpp" />
     <ClCompile Include="9251.cpp" />
     <ClCompile Include="ex.cpp" />
   </ItemGroup>

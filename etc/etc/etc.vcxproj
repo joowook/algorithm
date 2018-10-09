@@ -142,11 +142,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A.cpp" />
+    <ClCompile Include="B.cpp" />
+    <ClCompile Include="D.cpp" />
+    <ClCompile Include="E.cpp" />
     <ClCompile Include="ex.cpp" />
+    <ClCompile Include="F.cpp" />
+    <ClCompile Include="G.cpp" />
     <ClCompile Include="KOITP-고장난시계.cpp" />
     <ClCompile Include="KOITP-보물찾기.cpp" />
     <ClCompile Include="KOITP-오래된 계산기.cpp" />
     <ClCompile Include="KOITP-큰수만들기.cpp" />
+    <ClCompile Include="L.cpp" />
     <ClCompile Include="priority_queue.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="segment_tree.cpp" />
