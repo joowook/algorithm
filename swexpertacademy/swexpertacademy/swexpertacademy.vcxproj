@@ -144,14 +144,21 @@
   <ItemGroup>
     <ClCompile Include="1223. [SW 문제해결 기본] 6일차 - 계산기2.cpp" />
     <ClCompile Include="1768. [SW Test 샘플문제] 숫자야구게임.cpp" />
+    <ClCompile Include="1770. [SW Test 샘플문제] 블록 부품 맞추기.cpp" />
     <ClCompile Include="4301. 콩 많이 심기.cpp" />
     <ClCompile Include="4613. 러시아 국기 같은 깃발.cpp" />
+    <ClCompile Include="ex.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="[모의 SW 역량테스트] 핀볼 게임.cpp" />
     <ClCompile Include="가능한 시험 점수.cpp" />
     <ClCompile Include="극한의 청소 작업.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample_input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="5644. [모의 SW 역량테스트] 무선 충전" />
+    <None Include="5650. [모의 SW 역량테스트] 핀볼 게임" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -36,10 +36,27 @@
     <ClCompile Include="4301. 콩 많이 심기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="[모의 SW 역량테스트] 핀볼 게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1770. [SW Test 샘플문제] 블록 부품 맞추기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="sample_input.txt">
       <Filter>리소스 파일</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="5644. [모의 SW 역량테스트] 무선 충전">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="5650. [모의 SW 역량테스트] 핀볼 게임">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

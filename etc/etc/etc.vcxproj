@@ -149,11 +149,13 @@
     <ClCompile Include="ex.cpp" />
     <ClCompile Include="F.cpp" />
     <ClCompile Include="G.cpp" />
+    <ClCompile Include="hash.cpp" />
     <ClCompile Include="KOITP-고장난시계.cpp" />
     <ClCompile Include="KOITP-보물찾기.cpp" />
     <ClCompile Include="KOITP-오래된 계산기.cpp" />
     <ClCompile Include="KOITP-큰수만들기.cpp" />
     <ClCompile Include="L.cpp" />
+    <ClCompile Include="memoryPool.cpp" />
     <ClCompile Include="priority_queue.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="segment_tree.cpp" />
@@ -166,6 +168,10 @@
     <ClCompile Include="카카오C.cpp" />
     <ClCompile Include="카카오D.cpp" />
     <ClCompile Include="카카오E.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="result.txt" />
+    <Text Include="test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

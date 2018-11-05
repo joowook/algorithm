@@ -87,5 +87,19 @@
     <ClCompile Include="L.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="memoryPool.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="result.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>

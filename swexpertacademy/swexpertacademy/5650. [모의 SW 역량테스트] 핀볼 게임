@@ -1,0 +1,176 @@
+//#include<iostream>
+//#include<vector>
+//#include <queue>
+//#include <cstring>
+//#include <algorithm>
+//using namespace std;
+//
+//int map[11][11];
+//int dy[5] = { 0, -1,0,1,0 };
+//int dx[5] = { 0, 0,1,0,-1 };
+//bool check[11][11];
+//int battery[9];
+//
+//struct Info {
+//    int y, x, c;
+//
+//    Info(int y2, int x2, int c2) {
+//        y = y2;
+//        x = x2;
+//        c = c2;
+//    }
+//};
+//
+//void bfs(Info &bcInfo, int cnt) {
+//    queue<Info> q;
+//
+//    q.push(Info(bcInfo.y, bcInfo.x, bcInfo.c));
+//    map[bcInfo.y][bcInfo.x] |= (1 << cnt);
+//    check[bcInfo.y][bcInfo.x] = true;
+//    
+//    while (!q.empty()) {
+//        int y = q.front().y;
+//        int x = q.front().x;
+//        int c = q.front().c;
+//        q.pop();
+//
+//        if (c == 0) return;
+//
+//        for (int i = 1; i <= 5; i++) {
+//            int ny = y + dy[i];
+//            int nx = x + dx[i];
+//            
+//            if (ny >= 1 && ny <= 10 && nx >= 1 && nx <= 10) {
+//                if (!check[ny][nx]) {
+//                    check[ny][nx] = true;
+//                    map[ny][nx] |= (1 << cnt);
+//                    
+//                    q.push(Info(ny, nx, c - 1));
+//                }
+//            }
+//        }
+//    }
+//}
+//
+//int go(vector<int> human[2], int M, int A) {
+//    int ret = 0;
+//    int x1 = 1, y1 = 1;
+//    int x2 = 10, y2 = 10;
+//
+//    for (int i = 0; i <= M; i++) {
+//        if (map[y1][x1] != 0 && map[y2][x2] != 0) {
+//            int MaxA = 0, MaxB = 0;
+//            int MaxAi = 0, MaxBi = 0;
+//
+//            vector<pair<int,int>> v1,v2;
+//            for (int i = 1; i <= A; i++) {
+//                if (map[y1][x1] & (1 << i)) {
+//                    v1.push_back(make_pair(battery[i], i));
+//                }
+//
+//                if (map[y2][x2] & (1 << i)) {
+//                    v2.push_back(make_pair(battery[i], i));
+//                }
+//            }
+//            sort(v1.begin(), v1.end());
+//            sort(v2.begin(), v2.end());
+//            reverse(v1.begin(), v1.end());
+//            reverse(v2.begin(), v2.end());
+//
+//            if (v1[0].second != v2[0].second) {
+//                ret += v1[0].first + v2[0].first;
+//            }
+//            else {
+//                if (v1.size() == 1 && v2.size() == 1) {
+//                    ret += v1[0].first;
+//                }
+//                else if (v1.size() > 1 && v2.size() == 1) {
+//                    ret += v2[0].first + v1[1].first;
+//                }
+//                else if (v1.size() == 1 && v2.size() > 1) {
+//                    ret += v1[0].first + v2[1].first;
+//                }
+//                else {
+//                    ret += v1[0].first + max(v1[1].first, v2[1].first);
+//                }
+//            }
+//            
+//        }
+//        else {
+//            int Max = 0;
+//
+//            if (map[y1][x1] != 0) {
+//                for (int i = 1; i <= A; i++) {
+//                    if (map[y1][x1] & (1 << i)) {
+//                        Max = max(Max, battery[i]);
+//                    }
+//                }
+//
+//                ret += Max;
+//            }
+//            else if (map[y2][x2] != 0) {
+//                for (int i = 1; i <= A; i++) {
+//                    if (map[y2][x2] & (1 << i)) {
+//                        Max = max(Max, battery[i]);
+//                    }
+//                }
+//
+//                ret += Max;
+//            }
+//        }
+//
+//        if (i == M) {
+//            break;
+//        }
+//
+//        x1 += dx[human[0][i]];
+//        y1 += dy[human[0][i]];
+//        x2 += dx[human[1][i]];
+//        y2 += dy[human[1][i]];
+//    }
+//
+//    return ret;
+//}
+//
+//
+//int main(int argc, char** argv)
+//{
+//    int test_case;
+//    int T;
+//  
+//    scanf("%d", &T);
+//  
+//    for (test_case = 1; test_case <= T; ++test_case)
+//    {
+//        int M, A;
+//        memset(map, 0, sizeof(map));
+//        scanf("%d %d", &M, &A);
+//
+//        vector<int> human[2];
+//        human[0].resize(M);
+//        human[1].resize(M);
+//
+//        for (int i = 0; i < M; i++) {
+//            scanf("%d", &human[0][i]);
+//        }
+//        for (int i = 0; i < M; i++) {
+//            scanf("%d", &human[1][i]);
+//        }
+//        vector<Info> bcInfo;
+//        int cnt = 0;
+//        for (int i = 0; i < A; i++) {
+//            int x, y, c;
+//            scanf("%d %d %d %d", &x, &y, &c, &battery[i+1]);
+//
+//            bcInfo.push_back(Info(y, x, c));
+//        }
+//     
+//        for (int i = 0; i < A; i++) {
+//            memset(check, false, sizeof(check));
+//            bfs(bcInfo[i], i+1);
+//        }
+//
+//        printf("#%d %d\n", test_case, go(human, M, A));
+//    }
+//    return 0;
+//}
