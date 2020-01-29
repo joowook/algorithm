@@ -1,11 +1,10 @@
-//int pool[2000000];
-//int poolCnt = 0;
+//#include <iostream>
+//using namespace std;
 //
-//int* alloc() {
-//    return &pool[poolCnt++];
+//int main(void) {
+//    printf("Hello\n");
+//
+//
+//
+//    return 0;
 //}
-//
-//void init() {
-//    poolCnt = 0;
-//}
-//

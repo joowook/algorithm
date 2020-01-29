@@ -30,9 +30,6 @@
     <ClCompile Include="1768. [SW Test 샘플문제] 숫자야구게임.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="가능한 시험 점수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="4301. 콩 많이 심기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -43,6 +40,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="1770. [SW Test 샘플문제] 블록 부품 맞추기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="루빅main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="루빅user.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3752. 가능한 시험 점수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,6 +62,9 @@
       <Filter>소스 파일</Filter>
     </None>
     <None Include="5650. [모의 SW 역량테스트] 핀볼 게임">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="3752. 가능한 시험 점수">
       <Filter>소스 파일</Filter>
     </None>
   </ItemGroup>

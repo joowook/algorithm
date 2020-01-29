@@ -155,11 +155,14 @@
     <ClCompile Include="KOITP-오래된 계산기.cpp" />
     <ClCompile Include="KOITP-큰수만들기.cpp" />
     <ClCompile Include="L.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="memoryPool.cpp" />
     <ClCompile Include="priority_queue.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="segment_tree.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="tree.cpp" />
+    <ClCompile Include="User.cpp" />
     <ClCompile Include="카카오-비밀지도.cpp" />
     <ClCompile Include="카카오-실패율.cpp" />
     <ClCompile Include="카카오-오픈채팅방.cpp" />
